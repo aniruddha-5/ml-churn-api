@@ -4,8 +4,8 @@ import pandas as pd
 import os
 
 # Load model + expected features
-model = joblib.load('../model/churn_model.pkl')
-model_features = joblib.load('../model/model_features.pkl')  # One-hot encoded column names
+model = joblib.load('./model/churn_model.pkl')
+model_features = joblib.load('./model/model_features.pkl')  # One-hot encoded column names
 
 app = Flask(__name__)
 
