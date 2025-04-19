@@ -1,0 +1,31 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment folders
+env/
+venv/
+ENV/
+.venv/
+.idea/
+.vscode/
+
+# Model files and large data (optional, if you commit models)
+*.pkl
+*.joblib
+*.h5
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Render build cache (just in case)
+render-build/
