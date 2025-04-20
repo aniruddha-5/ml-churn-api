@@ -17,7 +17,6 @@ ENV/
 .vscode/
 
 # Model files and large data (optional, if you commit models)
-*.pkl
 *.joblib
 *.h5
 
